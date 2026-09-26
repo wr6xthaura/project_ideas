@@ -5,10 +5,3 @@ def show_ideas(ideas):
         print(f'Тема: {ideas["topic"]}')
         print(f'Сложность: {ideas["difficult"]}')
 
-def add_idea(ideas, name, topic, difficult):
-    new_idea = {
-        "name": name,
-        "topic": topic,
-        "difficult": difficult
-    }
-    ideas.append(new_idea)
